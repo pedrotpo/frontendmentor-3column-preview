@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+body {
+    background: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+button {
+    background: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    height: 50px;
+    margin-top: 30px;
+    width: 148px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 40px 0; 
+    text-transform: uppercase;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0;
+}
+
+.attribution { 
+    color: hsl(0, 0%, 100%);
+    font-size: 11px; text-align: center;
+    
+    a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+
+.container {
+    background: grey;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 88px auto;
+    width: 327px;
+
+    .box1 {
+        background: hsl(31, 77%, 52%);
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        padding: 48px;
+
+        button {
+            color: hsl(31, 77%, 52%);
+
+            &:hover {
+                background:hsl(31, 77%, 52%);
+                color: hsl(0, 0%, 95%);
+            }
+        }
+    }
+
+    .box2 {
+        background: hsl(184, 100%, 22%);
+        padding: 48px;
+
+        button {
+            color: hsl(184, 100%, 22%);
+
+            &:hover {
+                background:hsl(184, 100%, 22%);
+                color: hsl(0, 0%, 95%);
+            }
+        }
+    }
+
+    .box3 {
+        background: hsl(179, 100%, 13%);
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+        padding: 48px;
+
+        button {
+            color: hsl(179, 100%, 13%);
+
+            &:hover {
+                background:hsl(179, 100%, 13%);
+                color: hsl(0, 0%, 95%);
+            }
+        }
+    }
+}
+
