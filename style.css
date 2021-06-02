@@ -58,12 +58,11 @@ p {
           flex-direction: column;
   margin: 88px auto;
   width: 327px;
+  overflow: hidden;
 }
 
 .container .box1 {
   background: #e38826;
-  border-top-left-radius: inherit;
-  border-top-right-radius: inherit;
   padding: 48px;
 }
 
@@ -92,8 +91,6 @@ p {
 
 .container .box3 {
   background: #004241;
-  border-bottom-left-radius: inherit;
-  border-bottom-right-radius: inherit;
   padding: 48px;
 }
 
@@ -114,14 +111,6 @@ p {
         -ms-flex-flow: row nowrap;
             flex-flow: row nowrap;
     margin: 170px auto;
-  }
-  .container .box1 {
-    border-top-right-radius: unset;
-    border-bottom-left-radius: inherit;
-  }
-  .container .box3 {
-    border-bottom-left-radius: unset;
-    border-top-right-radius: inherit;
   }
 }
 /*# sourceMappingURL=style.css.map */

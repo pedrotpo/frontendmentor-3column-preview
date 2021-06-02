@@ -53,11 +53,10 @@ p {
     flex-direction: column;
     margin: 88px auto;
     width: 327px;
+    overflow: hidden;
 
     .box1 {
         background: hsl(31, 77%, 52%);
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
         padding: 48px;
 
         button {
@@ -86,8 +85,6 @@ p {
 
     .box3 {
         background: hsl(179, 100%, 13%);
-        border-bottom-left-radius: inherit;
-        border-bottom-right-radius: inherit;
         padding: 48px;
 
         button {
@@ -104,18 +101,6 @@ p {
         width: 920px;
         flex-flow: row nowrap;
         margin: 170px auto;
-
-        .box1 {
-            border-top-right-radius: unset;
-            border-bottom-left-radius: inherit;
-        }
-
-        .box3 {
-            border-bottom-left-radius: unset;
-            border-top-right-radius: inherit;
-        }
-
-
     }
 }
 
